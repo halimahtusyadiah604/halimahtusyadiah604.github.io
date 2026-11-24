@@ -1,0 +1,96 @@
+
+/*
+SKEMA WARNA: MONOKROMATIK PINK
+
+Kesan: cantik, lembut, ramah, dan nyaman dibaca.
+Warna dominan: pink tua.
+Warna pendukung: pink sedang dan pink muda.
+Warna netral: putih.
+Alasan: variasi warna pink menciptakan tampilan
+yang serasi dan menarik tanpa mengganggu keterbacaan.
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF0F5;
+    color: #593344;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #AD1457;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* MENU NAVIGASI */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #D94F8A;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+/* EFEK HOVER */
+nav a:hover {
+    background-color: #FCE4EC;
+    color: #880E4F;
+}
+
+/* ISI HALAMAN */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 22px;
+    border-radius: 10px;
+    border-left: 5px solid #EC407A;
+}
+
+h2 {
+    color: #AD1457;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* TAUTAN */
+main a {
+    color: #AD1457;
+}
+
+main a:hover {
+    color: #EC407A;
+}
+
+/* FOOTER */
+footer {
+    background-color: #880E4F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
